@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Priyanshu | Portfolio</title>
+    <meta name="description"
+      content="Portfolio of Priyanshu — projects, skills, and contact." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;600;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-eP1i1xPz+f6rV7w3m7cJZlU9oYqC0Zf5Vw9X8+9l2zS0vF1nYfG8Yx0O0oR7Zl1j2Dk5oYJkJrQ4qV5dGmR8Ww=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container nav" role="navigation" aria-label="Primary">
+        <a class="brand" href="#home"
+          aria-label="Go to home"><span>&lt;/&gt;</span> Priyanshu</a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="pill"
+              href="https://drive.google.com/file/d/18qDAuJwyVqGelYiJVwY8VPGVEaOcfAwt/view?usp=sharing"
+              aria-label="Download resume">My Resume</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="home" class="container">
+      <!-- Hero -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <span class="badge"><i class="fa-solid fa-bolt"></i> Available for
+            internships & freelance</span>
+          <h1 id="hero-title">Hey, I'm Priyanshu <span
+              aria-hidden="true">👋</span></h1>
+          <p class="muted">B.Tech CSE student who loves building delightful UIs
+            and solving problems. I focus on clean code, accessible design, and
+            performance.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Projects</a>
+          </div>
+          <div class="hero-card reveal" style="margin-top:18px">
+            <strong>Currently learning:</strong> Artificial Intelligence and Machine Learning
+          </div>
+        </div>
+
+        <div class="hero-card reveal" aria-label="Highlights">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px">
+            <div class="kpi"
+              style="background:rgba(124,124,255,.12); border-radius:14px; padding:18px">
+              <div class="muted">Solved</div>
+              <div style="font-size:28px; font-weight:800">200+</div>
+              <div class="muted">DSA Problems</div>
+              <div class="socials" aria-label="Social links">
+                <a href="https://www.geeksforgeeks.org/user/priyanshukt5q5/"
+                  style="margin-left: 20px; margin-top: 20px;"><img
+                    src="gfg.svg" alt></a>
+                <a style="margin-left: 20px; margin-top: 20px;"
+                  href="https://leetcode.com/u/pk8789764353/"><img
+                    src="leetcode.png" alt></a>
+              </div>
+            </div>
+            <div class="kpi"
+              style="background:rgba(106,227,255,.12); border-radius:14px; padding:18px">
+              <div class="muted">Projects</div>
+              <div style="font-size:28px; font-weight:800">6</div>
+              <div class="muted">Frontend + Backend</div>
+            </div>
+            <div class="kpi"
+              style="background:rgba(161,255,206,.12); border-radius:14px; padding:18px">
+              <div class="muted">Contests</div>
+              <div style="font-size:28px; font-weight:800">10</div>
+              <div class="muted"></div>
+            </div>
+            <div class="kpi"
+              style="background:rgba(255,255,255,.12); border-radius:14px; padding:18px">
+              <div class="muted">Hackathons</div>
+              <div style="font-size:28px; font-weight:800">0</div>
+              <div class="muted">Team Wins</div>
+            </div>
+          </div>
+        </div>
+        <!-- <div style="font-size:28px; font-weight:800">500+</div>
+            <div class="muted">DSA Problems</div>
+          </div>
+          <div class="kpi" style="background:rgba(106,227,255,.12); border-radius:14px; padding:18px">
+            <div class="muted">Projects</div>
+            <div style="font-size:28px; font-weight:800">6</div>
+            <div class="muted">Frontend + Android</div>
+          </div>
+          <div class="kpi" style="background:rgba(161,255,206,.12); border-radius:14px; padding:18px">
+            <div class="muted">Hackathons</div>
+            <div style="font-size:28px; font-weight:800">3</div>
+            <div class="muted">Team wins</div>
+          </div>
+          <div class="kpi" style="background:rgba(255,255,255,.12); border-radius:14px; padding:18px">
+            <div class="muted">Open Source</div>
+            <div style="font-size:28px; font-weight:800">20+</div>
+            <div class="muted">PRs merged</div>
+          </div>
+        </div>
+      </div> -->
+
+      </section>
+
+      <!-- About -->
+      <section id="about" class="about" aria-labelledby="about-title">
+        <h2 id="about-title" class="section-title">About Me</h2>
+        <div class="grid-2">
+          <div class="card reveal">
+            <div class aria-label="Profile picture">
+              <div style="display:grid; place-items:center; gap:12px">
+                <img src="profile.jpg" alt="Portrait of Priyanshu"
+                  style="width:220px; height:220px; object-fit:cover; border-radius:50%; border:4px solid rgba(255,255,255,.2); box-shadow: var(--shadow)" />
+              </div>
+            </div>
+            <p>I am Priyanshu Kumar, a dedicated and results-driven B.Tech
+              student in Computer Science and Engineering, with a strong
+              foundation built through a three-year diploma in the same field.
+              My passion lies in Competitive Programming , where I continuously
+              challenge myself to solve complex problems and enhance my
+              technical skills.
+              I thrive on problem-solving, exploring new technologies, and
+              building efficient solutions. I am always eager to learn and grow
+              in the ever-evolving tech landscape.</p>
+            <p class="muted">I care about accessibility, performance, and
+              writing maintainable code.</p>
+            <!-- <div class="kpis">
+              <div class="kpi">
+                <div style="font-weight:700; font-size:20px">Next.js</div>
+                <div class="muted">Routing, ISR, SEO</div>
+              </div>
+              <div class="kpi">
+                <div style="font-weight:700; font-size:20px">TypeScript</div>
+                <div class="muted">Typesafe React</div>
+              </div>
+              <div class="kpi">
+                <div style="font-weight:700; font-size:20px">Tailwind</div>
+                <div class="muted">Design systems</div>
+              </div>
+            </div> -->
+          </div>
+          <div class="card reveal">
+
+            <ul style="margin:0; padding-left:18px">
+              <li>Built and deployed multiple responsive sites..</li>
+              <li>Used IntersectionObserver for sleek, accessible scroll
+                animations.</li>
+              <li>Optimized assets and shipped consistently >90 Lighthouse
+                scores.</li>
+            </ul>
+            <div style="margin-top:14px">
+              <a class="btn" href="#projects">See Work</a>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal" style="margin-top:18px">
+          <h3 style="margin:0 0 8px">Education</h3>
+          <ul style="margin:0; padding-left:18px">
+            <li><strong>B.Tech in Computer Science and Engineering</strong>,
+              Bakhtiyarpur College Of Engineering, Bakhtiyarpur Patna
+              (2023–2026). CGPA: 9.0</li>
+            <li><strong>Diploma in CSE</strong>, New Government Polytechnic
+              Patna-13, Patna
+              (2020–2023). CGPA: 8.99</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" aria-labelledby="skills-title">
+        <h2 id="skills-title" class="section-title">Skills</h2>
+
+        <div class="skills-group">
+          <h3>Frameworks & Libraries</h3>
+          <div class="skills-grid">
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/react" alt="React logo" />
+              React</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/nextdotjs"
+                alt="Next.js logo" /> Next.js</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/tailwindcss"
+                alt="Tailwind CSS logo" /> Tailwind</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/redux" alt="Redux logo" />
+              Redux</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/express" alt="Express logo" />
+              Express</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/nodedotjs"
+                alt="Node.js logo" /> Node.js</div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Tools & Software</h3>
+          <div class="skills-grid">
+            <div class="chip reveal"><img src="https://cdn.simpleicons.org/git"
+                alt="Git logo" /> Git</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/github" alt="GitHub logo" />
+              GitHub</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/visualstudiocode"
+                alt="VS Code logo" /> VS Code</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/docker" alt="Docker logo" />
+              Docker</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/figma" alt="Figma logo" />
+              Figma</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/postman" alt="Postman logo" />
+              Postman</div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Databases</h3>
+          <div class="skills-grid">
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/mysql" alt="MySQL logo" />
+              MySQL</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/postgresql"
+                alt="PostgreSQL logo" /> PostgreSQL</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/mongodb" alt="MongoDB logo" />
+              MongoDB</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/sqlite" alt="SQLite logo" />
+              SQLite</div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Languages</h3>
+          <div class="skills-grid">
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/javascript"
+                alt="JavaScript logo" /> JavaScript</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/typescript"
+                alt="TypeScript logo" /> TypeScript</div>
+            <div class="chip reveal"><img
+                src="https://cdn.simpleicons.org/python" alt="Python logo" />
+              Python</div>
+            <div class="chip reveal"><img src="https://cdn.simpleicons.org/java"
+                alt="Java logo" /> Java</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title" class="section-title">Projects</h2>
+        <div class="projects">
+          <article class="project reveal">
+            <a href="https://github.com/pk8789764353/wanderlust"><img
+              src="wanderlust.png"
+              alt="Data dashboard screenshot placeholder" /></a>
+            <div class="body">
+              <h3 style="margin:0 0 6px">WONDERLUST – TRAVEL ACCOMMODATION
+                PLATFORM</h3>
+              <p class="muted" style="margin:0 0 10px">Developed a full-stack
+                web application where users can sign up, log in, and list
+                properties for
+                rent.</p>
+              <div class="tags">
+                <span class="tag">React.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">REST APIs</span>
+              </div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <a href="https://github.com/pk8789764353/Weather-app"><img
+              src="weather.png"
+              alt="Website builder UI placeholder" /></a>
+            <div class="body">
+              <h3 style="margin:0 0 6px">WEATHER WEB APP</h3>
+              <p class="muted" style="margin:0 0 10px">A responsive
+                HTML/CSS/JavaScript weather app that uses a free API to fetch
+                and display real-
+                time temperature, humidity, and wind speed for any city.</p>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+                <span class="tag">APIs</span>
+              </div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <a href="https://github.com/pk8789764353/Personal-Blog-with-Markdown-Support"><img
+              src="blog dashboard.png"
+              alt="Website builder UI placeholder" /></a>
+            <div class="body">
+              <h3 style="margin:0 0 6px">Personal Blog with Markdown Support</h3>
+              <p class="muted" style="margin:0 0 10px">A clean, minimalist personal blog where an administrator can create, edit, and delete posts.Blog posts are written in Markdown for easy formatting and are rendered as HTML for public viewing. The admin interface is protected.</p>
+              <div class="tags">
+                 <span class="tag">React.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Mern Stack</span>
+              </div>
+            </div>
+          </article>
+          <!-- <article class="project reveal">
+            <img
+              src="https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=1600&auto=format&fit=crop"
+              alt="Mobile app placeholder" />
+            <div class="body">
+              <h3 style="margin:0 0 6px">StudyMate</h3>
+              <p class="muted" style="margin:0 0 10px">Android app that turns
+                your tasks into streaks and rewards.</p>
+              <div class="tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Room</span>
+                <span class="tag">Compose</span>
+              </div>
+            </div>
+          </article> -->
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="section-title">Contact</h2>
+        <div class="contact-card reveal">
+          <form id="contact-form" aria-label="Contact form">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name"
+                required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email"
+                placeholder="you@example.com" required />
+            </div>
+            <div style="grid-column:1/-1">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4"
+                placeholder="Tell me about your project" required></textarea>
+            </div>
+            <div
+              style="grid-column:1/-1; display:flex; gap:10px; align-items:center">
+              <button class="btn" type="submit">Send</button>
+              <span id="form-status" class="muted" role="status"
+                aria-live="polite"></span>
+            </div>
+          </form>
+          <div>
+            <div class="hero-card" style="height:100%">
+              <h3 style="margin-top:0">Let’s collaborate</h3>
+              <p class="muted">I’m open to internships, freelance projects, and
+                open‑source contributions.</p>
+              <ul style="padding-left:18px; margin:0">
+                <li>Location: Patna,Bihar,India (UTC+5:30)</li>
+                <li>Email: priyanshukumar5104@gmail.com</li>
+              </ul><br>
+              <div class="socials" aria-label="Social links">
+                <a
+                  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=priyanshukumar5104@gmail.com"
+                  aria-label="mail"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/pk8789764353" aria-label="GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/priyanshu-kumar-719aaa264/"
+                  aria-label="LinkedIn"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://x.com/Priyans11714986"
+                  aria-label="X / Twitter"><i
+                    class="fa-brands fa-x-twitter"></i></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container"
+        style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap">
+        <div>© <span id="year"></span> Priyanshu. All rights reserved.</div>
+        <div style="display:flex; gap:10px">
+          <a class="pill" href="#home">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
